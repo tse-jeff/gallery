@@ -29,12 +29,22 @@ nav {
   justify-content: right;
 }
 
+#hamburger:hover {
+  background-color: red;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  transition: 0.5s;
+  
+}
+
 .burger_line {
   background-color: black;
   width: 20px;
   height: 3px;
   margin-bottom: 4px;
   margin-right: 8px;
+  position: sticky;
 }
 
 .sticky {
