@@ -5,8 +5,9 @@
   /* overflow: hidden; */
 }
 
-.display_menu {
-
+.sticky a {
+  text-decoration: none;
+  color: black;
 }
 
 .gallery {
@@ -16,9 +17,6 @@
   align-items: flex-start;
 }
 
-.strip_image {
-  margin-bottom: 20px;
-}
 
 body {
   background-color: #808080;
