@@ -1,27 +1,28 @@
-/* Adjust the size of the carousel */
-.carousel {
-  width: 100%;
-  height: 500px;
-  margin-top: 10px;
+.carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  /* border-radius: 50%; */
 }
 
-/* Center the carousel */
-.carousel-inner {
+#myCarousel {
+  height: 100%;
+  align-self: center; 
+}
+
+.carousel {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
   height: 100%;
 }
 
-/* Adjust the size of the images */
-.carousel img {
-  max-height: 100%;
-  max-width: 100%;
-}
+/* .carousel-inner {
+  width: 100%;
+  height: 100%;
+} */
 
-/* Hide the carousel indicators and controls */
-.carousel-indicators,
-.carousel-control-prev,
-.carousel-control-next {
-  display: none;
+.carousel-indicators {
+  position: fixed;
 }
