@@ -24,3 +24,22 @@ body {
   padding-top: 16px;
   font-size: 80px;
 }
+
+.modal-dialog {
+  max-width: 90%;
+  max-height: 90%;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.modal-content {
+  height: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+.modal-body {
+  padding: 0;
+  margin: 0;
+}
